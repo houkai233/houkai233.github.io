@@ -31,7 +31,8 @@
     <script src="/libs/jquery/jquery.min.js"></script>
     
 <link rel="alternate" href="/atom.xml" title="HK的博客" type="application/atom+xml">
-<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
 
 
 <body>
@@ -593,6 +594,32 @@
     </div>
 
     
+        <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/css/my-gitalk.css">
+
+<div class="card gitalk-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="gitalk-container" class="card-content"></div>
+</div>
+
+<script src="/libs/gitalk/gitalk.min.js"></script>
+<script>
+    let gitalk = new Gitalk({
+        clientID: 'fa02720549cff1e8cd0e',
+        clientSecret: '925514c225b21ed39f2f9e7ec0223e2f9d689901',
+        repo: 'houkai233.github.io',
+        owner: 'houkai233',
+        admin: "houkai233",
+        id: '2019-11-28T09-52-07',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
+
+    gitalk.render('gitalk-container');
+</script>
+    
 
     
 
@@ -659,35 +686,48 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+                本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
-                <a href="/2019/11/27/hello-world/">
+                <a href="/2019/11/28/di-yi-pian-bo-ke-ce-shi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="第一篇博客测试">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">第一篇博客测试</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex
+                            这篇文章只是用来测试的
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-11-27
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-11-28
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            Hou kai
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/" class="post-category">
+                                    测试文章
+                                </a>
+                            
                             
                         </span>
                     </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E6%B5%8B%E8%AF%95-%E5%8D%9A%E5%AE%A2/">
+                        <span class="chip bg-color">测试 博客</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -870,7 +910,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">184</span>&nbsp;字
+                class="white-color">59</span>&nbsp;字
             
             
             
@@ -1069,6 +1109,8 @@ $(function () {
     
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
+
+<script type="text/javascript"> var OriginTitile = document.title, st; document.addEventListener("visibilitychange", function () { document.hidden ? (document.title = "Σ(っ °Д °;)っ有刺客，救驾！", clearTimeout(st)) : (document.title = "φ(゜▽゜*)♪将军，来的好！", st = setTimeout(function () { document.title = OriginTitile }, 3e3)) }) </script>
 
 </body>
 

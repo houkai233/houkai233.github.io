@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="friends, HK的博客">
-    <meta name="description" content="friends | HK的博客">
+    <meta name="keywords" content="友情链接, HK的博客">
+    <meta name="description" content="友情链接 | HK的博客">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>friends | HK的博客</title>
+    <title>友情链接 | HK的博客</title>
     <link rel="icon" type="image/jpeg" href="/medias/scene2.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -27,7 +27,8 @@
     <script src="/libs/jquery/jquery.min.js"></script>
     
 <link rel="alternate" href="/atom.xml" title="HK的博客" type="application/atom+xml">
-<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
 
 
 <body>
@@ -306,8 +307,11 @@
     <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
         <div class="brand">
             <div class="title center-align">
-                
+                <!-- 
                 HK World
+                 -->
+                
+                    友情链接
                 
             </div>
 
@@ -533,8 +537,8 @@
     <div class="container friends-container">
         <div class="card">
             <div class="card-content">
-                <p>友链交换<br>想要交换友链的小伙伴，欢迎在留言板留言，留言格式：</p>
-<p>名称：你的博客名称<br>地址：你的博客地址<br>简介：一句话简介<br>头像：你的头像地址</p>
+                <h1 id="友链交换"><a href="#友链交换" class="headerlink" title="友链交换"></a>友链交换</h1><p>想要交换友链的小伙伴，欢迎在留言板留言，留言格式：</p>
+<p><strong>名称</strong>：你的博客名称<br><strong>地址</strong>：你的博客地址<br><strong>简介</strong>：一句话简介<br><strong>头像</strong>：你的头像地址</p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -659,6 +663,32 @@
         <div class="card">
 
             
+            <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/css/my-gitalk.css">
+
+<div class="card gitalk-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="gitalk-container" class="card-content"></div>
+</div>
+
+<script src="/libs/gitalk/gitalk.min.js"></script>
+<script>
+    let gitalk = new Gitalk({
+        clientID: 'fa02720549cff1e8cd0e',
+        clientSecret: '925514c225b21ed39f2f9e7ec0223e2f9d689901',
+        repo: 'houkai233.github.io',
+        owner: 'houkai233',
+        admin: "houkai233",
+        id: '2019-11-28T14-47-47',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
+
+    gitalk.render('gitalk-container');
+</script>
+            
 
             
 
@@ -690,7 +720,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">184</span>&nbsp;字
+                class="white-color">59</span>&nbsp;字
             
             
             
@@ -889,6 +919,8 @@ $(function () {
     
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
+
+<script type="text/javascript"> var OriginTitile = document.title, st; document.addEventListener("visibilitychange", function () { document.hidden ? (document.title = "Σ(っ °Д °;)っ有刺客，救驾！", clearTimeout(st)) : (document.title = "φ(゜▽゜*)♪将军，来的好！", st = setTimeout(function () { document.title = OriginTitile }, 3e3)) }) </script>
 
 </body>
 
