@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/houkai233/houkai233.github.io/"/>
-  <updated>2019-11-28T09:52:57.700Z</updated>
+  <updated>2019-12-05T07:41:34.053Z</updated>
   <id>https://github.com/houkai233/houkai233.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>第一篇博客测试</title>
-    <link href="https://github.com/houkai233/houkai233.github.io/2019/11/28/di-yi-pian-bo-ke-ce-shi/"/>
-    <id>https://github.com/houkai233/houkai233.github.io/2019/11/28/di-yi-pian-bo-ke-ce-shi/</id>
-    <published>2019-11-28T01:52:07.000Z</published>
-    <updated>2019-11-28T09:52:57.700Z</updated>
+    <title>开门见山</title>
+    <link href="https://github.com/houkai233/houkai233.github.io/2019/12/05/kai-men-jian-shan/"/>
+    <id>https://github.com/houkai233/houkai233.github.io/2019/12/05/kai-men-jian-shan/</id>
+    <published>2019-12-05T03:12:25.000Z</published>
+    <updated>2019-12-05T07:41:34.053Z</updated>
     
     <summary type="html">
     
@@ -29,21 +29,17 @@
       
         
         
-          &lt;p&gt;哈哈哈，成功了吗&lt;/p&gt;
-&lt;script&gt;
-        document.querySelectorAll(&#39;.github-emoji&#39;)
-          .forEach(el =&gt; {
-            if (!el.dataset.src) {
+          &lt;p&gt;开门见山的说，这个游戏…，不好意思，走错片场了&lt;span class=&quot;github-emoji&quot; style=&quot;color: transparent;background:no-repeat
         
       
     
     </summary>
     
     
-      <category term="测试文章" scheme="https://github.com/houkai233/houkai233.github.io/categories/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
+      <category term="闲谈" scheme="https://github.com/houkai233/houkai233.github.io/categories/%E9%97%B2%E8%B0%88/"/>
     
     
-      <category term="测试 博客" scheme="https://github.com/houkai233/houkai233.github.io/tags/%E6%B5%8B%E8%AF%95-%E5%8D%9A%E5%AE%A2/"/>
+      <category term="第一篇博客" scheme="https://github.com/houkai233/houkai233.github.io/tags/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   

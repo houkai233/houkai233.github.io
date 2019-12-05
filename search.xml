@@ -4,23 +4,23 @@
   
     
     <entry>
-      <title>第一篇博客测试</title>
-      <link href="/2019/11/28/di-yi-pian-bo-ke-ce-shi/"/>
-      <url>/2019/11/28/di-yi-pian-bo-ke-ce-shi/</url>
+      <title>开门见山</title>
+      <link href="/2019/12/05/kai-men-jian-shan/"/>
+      <url>/2019/12/05/kai-men-jian-shan/</url>
       
-        <content type="html"><![CDATA[<p>哈哈哈，成功了吗</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+        <content type="html"><![CDATA[<p>开门见山的说，这个游戏…，不好意思，走错片场了<span class="github-emoji" style="color: transparent;background:no-repeat url(https://github.githubassets.com/images/icons/emoji/unicode/1f62c.png?v8) center/contain" data-src="https://github.githubassets.com/images/icons/emoji/unicode/1f62c.png?v8">😬</span>。</p><p>说实话，在创建这个博客后，我还一直没想好写什么，从小语文就不太好，写作文囫囵吞枣，语言组织能力也比较差，所以总是下不去“笔”，但是不能总这样下去，这个博客就相当于给我下个决心吧！以后我会争取每<strong>一周</strong>写<strong>一篇</strong>博客，不论是技术，趣闻，闲聊，总之想到什么写什么，这或许不是一个正经的博客，我也不想做成那种全是技术的正经博客，生活本就如此艰难，何不给自己找一快清净地，正如我博客首页标题，”<strong>HK World</strong>“,这就是我的世界，我可以在这里吐槽犯傻，写任何想写的 ，当然法律不允许的除外哈!<span class="github-emoji" style="color: transparent;background:no-repeat url(https://github.githubassets.com/images/icons/emoji/unicode/1f61b.png?v8) center/contain" data-src="https://github.githubassets.com/images/icons/emoji/unicode/1f61b.png?v8">😛</span></p><p>除此之外，大家也可以给我留言评论，无论是技术问题还是生活问题，我了不了解都会回复的，当然有的朋友我没有回复可能就是我没有看到吧！反正应该或许不是因为我没有时间故意的<span class="github-emoji" style="color: transparent;background:no-repeat url(https://github.githubassets.com/images/icons/emoji/unicode/1f643.png?v8) center/contain" data-src="https://github.githubassets.com/images/icons/emoji/unicode/1f643.png?v8">🙃</span>。</p><p>总而言之，言而总之，最后说一句，初次见面，请多关照，欢迎大家来到我的世界！！！希望你在这里玩的开心，玩的愉快，玩出知识，玩到另一半（这个可能有点难）。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
       <categories>
           
-          <category> 测试文章 </category>
+          <category> 闲谈 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 测试 博客 </tag>
+            <tag> 第一篇博客 </tag>
             
         </tags>
       
